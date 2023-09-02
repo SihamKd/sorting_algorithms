@@ -72,7 +72,6 @@ count[array[i]] -= 1;
 for (i = 0; i < (int)size; i++)
 array[i] = sorted[i];
 
-
 free(sorted);
 free(count);
 }
